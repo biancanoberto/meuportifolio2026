@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bianca Noberto | Portfólio</title>
+
+    <!-- tailwind via cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Monsieur+La+Doulaise&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="bg-[#f3e9c9] text-[#030213]">
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-tabs">
+        <a href="#sobre" class="tab sobre" data-i18n="nav_about">Sobre</a>
+        <a href="#projetos" class="tab projetos" data-i18n="nav_projects"
+          >Projetos</a
+        >
+        <a href="#habilidades" class="tab habilidades" data-i18n="nav_skills"
+          >Habilidades</a
+        >
+        <a href="#contato" class="tab contato" data-i18n="nav_contact"
+          >Contato</a
+        >
+      </div>
+
+      <button
+        id="langToggle"
+        class="lang-toggle"
+        type="button"
+        aria-label="toggle language"
+      >
+        PT / EN
+      </button>
+    </nav>
+
+    <!-- hero -->
+    <section class="hero" id="topo">
+      <div class="hero-frame">
+        <div class="hero-grid">
+          <div class="hero-left">
+            <h1 class="hero-title">
+              <span class="hero-name">
+                <span class="hero-rest">Bianca</span>
+              </span>
+
+              <span class="hero-name surname">
+                <span class="hero-rest">Noberto</span>
+              </span>
+            </h1>
+
+            <p class="hero-sub" data-i18n="hero_role">
+              Designer & Desenvolvedora Digital
+            </p>
+
+            <p class="hero-desc" data-i18n="hero_line1">
+              Onde estratégia encontra estética e tecnologia.
+            </p>
+            <p class="hero-desc muted" data-i18n="hero_line2">
+              Disponível para projetos criativos, branding e soluções digitais.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="btn primary"
+                href="#projetos"
+                data-i18n="hero_cta_projects"
+                >Ver projetos →</a
+              >
+              <a
+                class="btn outline"
+                href="#contato"
+                data-i18n="hero_cta_contact"
+                >Entrar em contato →</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="hero-poster" aria-hidden="true">
+              <div class="poster-grid"></div>
+
+              <div class="poster-text">
+                <div class="poster-big" data-i18n="poster_big">
+                  Bem-vindos ao<br />
+                  meu portfólio<br />
+                </div>
+
+                <div class="poster-small">
+                  <span>Bianca Noberto</span><br />
+                  <span data-i18n="poster_small">(Designer & Dev)</span><br />
+                  <span>© 2026</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sobre -->
+    <section id="sobre" class="about-section">
+      <div class="stripes-bg">
+        <div class="about-card">
+          <h2 class="about-title" data-i18n="about_title">Sobre</h2>
+
+          <div class="about-text">
+            <p data-i18n="about_p1">
+              Uno tecnologia, branding e experiência para criar soluções
+              digitais com intenção.
+            </p>
+            <p data-i18n="about_p2">
+              Minha formação em Multimídia e Ciência da Computação me permite ir
+              além da estética — penso em estrutura, posicionamento e impacto.
+            </p>
+            <p data-i18n="about_p3">
+              Acredito que design não é apenas visual: é estratégia, comunicação
+              e experiência.
+            </p>
+          </div>
+
+          <div class="about-diff">
+            <h3 data-i18n="about_diff_title">O que me diferencia</h3>
+            <ul>
+              <li data-i18n="about_li1">
+                Visão estratégica + sensibilidade estética
+              </li>
+              <li data-i18n="about_li2">Base técnica em desenvolvimento</li>
+              <li data-i18n="about_li3">
+                Pensamento orientado à experiência do usuário
+              </li>
+              <li data-i18n="about_li4">Organização e clareza na execução</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projetos -->
+    <section id="projetos" class="projects-section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="projects_title">Projetos</h2>
+
+        <div class="projects-list">
+          <article class="project">
+            <div class="project-left">
+              <div class="project-line red"></div>
+              <div>
+                <h3>Hearview</h3>
+                <p class="tag" data-i18n="p_hearview_tag">
+                  Inovação & Acessibilidade
+                </p>
+              </div>
+            </div>
+
+            <div class="project-right">
+              <p data-i18n="p_hearview_desc">
+                Projeto de um totem interativo voltado a melhorar a comunicação
+                e a inclusão de pessoas com deficiência auditiva no ambiente
+                corporativo.
+              </p>
+              <p class="meta">
+                <span data-i18n="role_label">Meu papel:</span>
+                <span data-i18n="p_hearview_role"
+                  >Liderança, pesquisa e inovação.</span
+                >
+              </p>
+              <p class="meta">
+                <span data-i18n="result_label">Resultado:</span>
+                <span data-i18n="p_hearview_result"
+                  >Projeto vencedor em competição avaliada por especialista na
+                  área.</span
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-left">
+              <div class="project-line pink"></div>
+              <div>
+                <h3>Casa Rosa</h3>
+                <p class="tag" data-i18n="p_casarosa_tag">
+                  Organização & Análise de Dados
+                </p>
+              </div>
+            </div>
+
+            <div class="project-right">
+              <p data-i18n="p_casarosa_desc">
+                Estruturação e manutenção de planilhas estratégicas para
+                controle de vendas e estoque em bazar beneficente e loja
+                temporária.
+              </p>
+              <p class="meta">
+                <span data-i18n="role_label">Meu papel:</span>
+                <span data-i18n="p_casarosa_role"
+                  >Organização de dados e otimização de controle.</span
+                >
+              </p>
+              <p class="meta">
+                <span data-i18n="impact_label">Impacto:</span>
+                <span data-i18n="p_casarosa_impact"
+                  >Melhoria na visualização de resultados e apoio à tomada de
+                  decisão.</span
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-left">
+              <div class="project-line navy"></div>
+              <div>
+                <h3>Mini Curso Python</h3>
+                <p class="tag" data-i18n="p_python_tag">
+                  Educação & Tecnologia
+                </p>
+              </div>
+            </div>
+
+            <div class="project-right">
+              <p data-i18n="p_python_desc">
+                Minicurso de introdução à programação com foco em uma linguagem
+                acessível e prática realizado no Colégio Ângulo Líder.
+              </p>
+              <p class="meta">
+                <span data-i18n="role_label">Meu papel:</span>
+                <span data-i18n="p_python_role"
+                  >Ensino, acompanhamento e monitoramento do aprendizado.</span
+                >
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🔥 SUBSEÇÕES -->
+    <div class="projects-subsections">
+      <!-- DESIGN -->
+      <div class="subsection">
+        <h3 class="subsection-title">design</h3>
+
+        <div class="sub-grid">
+          <a href="./pdfs/projeto1.pdf" download class="sub-card">
+            <p class="sub-card-title">amô & café</p>
+            <span>ver projeto (pdf)</span>
+          </a>
+
+          <a href="./pdfs/ara skin.pdf" download class="sub-card">
+            <p class="sub-card-title">Ara Skin</p>
+            <span>ver projeto (pdf)</span>
+          </a>
+        </div>
+      </div>
+</div>
+
+    <!-- habilidades -->
+    <section id="habilidades" class="skills-section">
+      <div class="skills-bg">
+        <div class="container">
+          <h2 class="skills-title" data-i18n="skills_title">Bianca’s Pack</h2>
+
+          <div class="skills-images">
+            <img
+              id="skillDesign"
+              class="skill-img"
+              src="./img/designpt-removebg-preview.png"
+              alt="design pack"
+            />
+            <img
+              id="skillDev"
+              class="skill-img"
+              src="./img/desenpt-removebg-preview.png"
+              alt="development pack"
+            />
+            <img
+              id="skillStr"
+              class="skill-img"
+              src="./img/estrategiapt-removebg-preview.png"
+              alt="strategy pack"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contato -->
+    <section id="contato" class="contact-section">
+      <div class="contact-bg">
+        <div class="container contact-inner">
+          <h2 class="contact-title" data-i18n="contact_title">
+            Vamos construir algo com intenção.
+          </h2>
+          <p class="contact-sub" data-i18n="contact_sub">Disponível para:</p>
+
+          <div class="contact-grid">
+            <div class="contact-box" data-i18n="c1">• Projetos criativos</div>
+            <div class="contact-box" data-i18n="c2">• Desenvolvimento web</div>
+            <div class="contact-box" data-i18n="c3">• Branding estratégico</div>
+            <div class="contact-box" data-i18n="c4">
+              • Colaborações digitais
+            </div>
+          </div>
+
+          <!-- ✅ carta no layout (abre/fecha no lugar) -->
+          <div class="letter-stage">
+            <!-- botão fechar (só aparece quando abrir) -->
+            <button
+              class="letter-x"
+              id="closeLetterInline"
+              type="button"
+              aria-label="Fechar carta"
+            >
+              ×
+            </button>
+
+            <!-- imagem fechada -->
+            <button
+              class="letter-click"
+              id="openLetterInline"
+              type="button"
+              aria-label="Abrir carta"
+            >
+              <img
+                class="letter-img letter-closed-img"
+                src="./img/cartafechada.png"
+                alt="Carta fechada (clique para abrir)"
+              />
+              <span class="letter-hint" data-i18n="letter_hint"
+                >clique para abrir</span
+              >
+            </button>
+
+            <!-- imagem aberta + conteúdo por cima -->
+            <div
+              class="letter-open-wrap"
+              id="letterOpenWrap"
+              aria-hidden="true"
+            >
+              <img
+                class="letter-img letter-open-img"
+                src="./img/carta.png"
+                alt="Carta aberta"
+              />
+
+              <!-- quadrado/retângulo da carta: UI por cima -->
+              <div class="letter-overlay-ui">
+                <h3 class="letter-title" data-i18n="contact_form_title">
+                  entre em contato
+                </h3>
+
+                <form
+                  class="formulario-contato"
+                  id="formulario"
+                  onsubmit="enviarWhats(event)"
+                >
+                  <div class="grupo-form">
+                    <input
+                      type="text"
+                      name="nome"
+                      placeholder="nome"
+                      class="campo-form"
+                      id="nome"
+                      required
+                    />
+                  </div>
+
+                  <div class="grupo-form">
+                    <textarea
+                      name="mensagem"
+                      class="campo-form"
+                      placeholder="digite sua mensagem"
+                      rows="5"
+                      id="mensagem"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <button type="submit" class="btn-form" data-i18n="wa_button">
+                    enviar no whatsapp
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- ✅ ícones sociais (abaixo da carta, com espaço) -->
+          <div class="contato-social" aria-label="Redes sociais">
+            <a
+              class="social-icon"
+              href="https://www.linkedin.com/in/bianca-noberto"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+            >
+              <img src="./img/logolinkedin.png" alt="LinkedIn" />
+            </a>
+
+            <a
+              class="social-icon"
+              href="https://github.com/biancanoberto"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              title="GitHub"
+            >
+              <img src="./img/logogit.png" alt="GitHub" />
+            </a>
+
+            <a
+              class="social-icon"
+              href="https://www.instagram.com/devnoberto"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              title="Instagram"
+            >
+              <img src="./img/logoinsta.png" alt="Instagram" />
+            </a>
+          </div>
+
+          <div class="footer-note" data-i18n="footer_note">
+            © 2026 Bianca Noberto. Todos os direitos reservados.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
