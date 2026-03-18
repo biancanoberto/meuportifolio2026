@@ -518,6 +518,14 @@ html,body{
   font-size:56px;
 }
 
+.contact-sub{
+  color: var(--pink);
+  font-size: 16px;
+  margin: 10px 0 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 .contact-grid{
   max-width:760px;
   margin:0 auto 40px;
@@ -710,4 +718,95 @@ html,body{
   padding-top: 18px;
 
   opacity: 0.7;
+}
+/* ========================= */
+/* 📱 RESPONSIVIDADE MOBILE */
+/* ========================= */
+
+@media (max-width: 768px){
+
+  /* NAVBAR */
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-tabs{
+    flex-wrap: wrap;
+  }
+
+  /* HERO */
+  .hero-title{
+    font-size: 36px;
+    flex-wrap: wrap;
+  }
+
+  .poster-big{
+    font-size: 36px;
+  }
+
+  .hero-frame{
+    padding: 24px;
+  }
+
+  /* ABOUT */
+  .about-card{
+    padding: 40px 24px;
+  }
+
+  .about-title{
+    font-size: 32px;
+  }
+
+  /* PROJETOS */
+  .project{
+    grid-template-columns: 1fr;
+  }
+
+  .section-title{
+    font-size: 32px;
+  }
+
+  .subsection-title{
+    font-size: 22px;
+  }
+
+  /* SISTEMAS */
+  .systems-grid{
+    grid-template-columns: 1fr;
+  }
+
+  /* SKILLS */
+  .skills-title{
+    font-size: 36px;
+  }
+
+  .skills-images{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* CONTATO */
+  .contact-title{
+    font-size: 32px;
+  }
+
+  .contact-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .contact-box{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* CARTA */
+  .letter-img{
+    width: 260px;
+  }
+
+  .letter-overlay-ui{
+    width: 95%;
+  }
 }
